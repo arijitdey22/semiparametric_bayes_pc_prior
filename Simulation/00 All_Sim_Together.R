@@ -331,21 +331,6 @@ sim_all_tog <- function(n, alpha.true, alpha.hyper, model.true, model.fit, prior
   return(ret)
 }
 
-
-####Inputs of the function
-#n = 24, 99
-#alpha.true = 0.5, 1, 2
-#alpha.hyper = 0.01, 0.1, 1     if prior is for Non-PC prior
-#            = 2.5, 5, 10       if prior is for PC prior
-#model.true = "Linear", "Non_Linear"
-#model.fit = "Par", "Semi_Par"
-#prior = "Non_PC", "PC"
-
-# foo <- sim_all_tog(24, 0.5, 0.01, "Linear", "Semi_Par", "Non_PC")
-# foo.1 <- foo[[1]]
-# mean(foo.1[[1]])
-# colMeans(foo.1[[2]])
-
 ####==========================================================================================
 ####Setting 1: Linear, parametric, Non-PC
 ###n = 24
